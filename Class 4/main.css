@@ -98,7 +98,7 @@ h1{
 
 .card {
     /* position: relative; */
-    width: 380px;
+    width: 250px;
     margin: 60px auto;
     display: -ms-flexbox;
     display: flex;
@@ -117,4 +117,9 @@ h1{
     color: #EF8F88;
     background-color: #FFFFFF;
     border-color: #EF8F88;
+}
+
+.row{
+    width: 85%;
+    margin: auto;
 }
