@@ -123,3 +123,41 @@ h1{
     width: 85%;
     margin: auto;
 }
+
+
+@media(max-width:540px){
+element.style {
+    background: url(https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/pdflo…ale=10&markx=25&q=75&usm=15&vib=3&w=600&s=2dd8615…) center no-repeat;
+    background-size: 118%!important;
+    background-position-y: center;
+    height: 400px!important;
+}
+
+.display-4 {
+    font-size: 40px;
+    font-weight: 300;
+    line-height: 3;
+    margin: 62px auto 0;
+}
+
+.mb-5, .my-5 {
+    margin-bottom: 4rem!important;
+}
+
+}
+
+@media(min-width:541px, max-width:775px){
+    element.style {
+        background: url(https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/pdflo…ale=10&markx=25&q=75&usm=15&vib=3&w=600&s=2dd8615…) center no-repeat;
+        background-size: 118%!important;
+        background-position-y: center;
+        height: 400px!important;
+    }
+    
+    .display-4 {
+        font-size: 65px;
+        font-weight: 300;
+        line-height: 3;
+        margin: 62px auto 0;
+    }
+}    
