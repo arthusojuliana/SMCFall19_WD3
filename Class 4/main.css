@@ -4,4 +4,83 @@
     
 }
 
-.navb
+.container-fluid{    
+    top:50%;
+    transform: translateY(-50%);
+    width: 50%!important;
+    position: relative;
+    text-align: center;
+}
+
+.article-block{
+    width:70%;
+    margin: auto;
+}
+
+body{
+    color:#707E8E!important;
+    font-family: 'Abel', sans-serif!important;
+
+}
+
+.h4, h4{
+    color: #43683C!important;
+    margin-bottom: 10px;
+    margin-top: 15px;
+
+}
+
+main{
+    background-color: #F6F7F2;
+}
+
+p{
+    line-height: 31px;
+    font-size: 19px;
+    margin-top: 29px;
+}
+
+.lead {
+    font-size: 1.5rem;
+    width: 83%;
+    margin: 44px auto;
+    line-height: 41px;
+    font-weight: 300;
+}
+
+.navbar{
+    background-color: #F6F7F2;
+    color: #43683C!important;
+}
+
+.navbar-light .navbar-brand {
+    color: #43683C;
+}
+
+.btn-outline-success {
+    color: #EF8F88;
+    border-color: #EF8F88;
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color:#EF8F88;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #43683C;
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: #EF8F88;
+}
+
+.display-4{
+    font-family: 'Lora', serif;
+    color: #43683C;
+    font-weight: 100;
+    font-size: 3.05rem;
+}
+
+h1{
+    font-family: 'Lora', serif;
+}
