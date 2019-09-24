@@ -35,6 +35,12 @@ body{
     font-weight: 700;
 }
 
+.btn-primary:hover {
+    color: #fff;
+    background-color: #EF8F88;
+    border-color: #EF8F88;
+}
+
 main{
     background-color: #F6F7F2;
 }
