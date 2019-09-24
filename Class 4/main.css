@@ -84,3 +84,26 @@ p{
 h1{
     font-family: 'Lora', serif;
 }
+
+.card {
+    /* position: relative; */
+    width: 20%;
+    margin: 60px auto;
+    display: -ms-flexbox;
+    display: flex;
+    flex-flow: row;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid #ef8f8829;
+    border-radius: .25rem;
+}
+
+.btn-primary {
+    color: #EF8F88;
+    background-color: #FFFFFF;
+    border-color: #EF8F88;
+}
