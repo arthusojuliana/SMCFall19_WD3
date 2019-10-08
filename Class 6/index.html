@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>Class 6</title>
+  </head>
+  <body>
+    <h1 id="mainTitle">Hello, world!</h1>
+
+    <button id="colorChange">Change Color</button>
+
+    <script>
+    document.getElementById("mainTitle").style.color = "hotpink";
+
+    var colorButton = document.getElementById("colorChange");
+
+    colorButton.addEventListener("click", changeColor);
+
+    var changeColor = function(){
+        document.getElementById("mainTitle").style.color = "dodgerblue";
+    }
+    </script>
+  </body>
+</html>

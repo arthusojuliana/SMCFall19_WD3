@@ -1,0 +1,326 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="main.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Abel|Playfair+Display&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Lora&display=swap" rel="stylesheet">
+
+    <title>Contact Us - Planticia</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light ">
+            <a class="navbar-brand" href="#">Planticia</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+                aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                <a class="navbar-brand" href="#"></a>
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Stores</a>
+                    </li>
+                    <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                                <a class="nav-link" href="#">Gallery</a>
+                            </li>
+                    
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="jumbotron-fluid py-3 py-md-5 mb-5"
+            style="background: url(https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/pdflowerset16-kul-06-leaves.png?auto=&bg=transparent&con=3&cs=srgb&dpr=1&fm=png&ixlib=php-3.1.0&mark=rawpixel-watermark.png&markalpha=90&markpad=13&markscale=10&markx=25&q=75&usm=15&vib=3&w=600&s=2dd86154e3352171fd2b0531c16f5370) center no-repeat; background-size: 80%; background-position-y: center; height: 500px;">
+            <div class="container-fluid">
+                <h1 class="display-4">Planticia</h1>
+                <hr class="my-4">
+                <p>Give your home class and pizzazz
+                </p>
+            
+            </div>
+        </div>
+
+        <!--START FORM SECTION-->
+<div class="article-block">
+        <form>
+                <h2>E-address</h2>
+                <div class="form-row">
+                  <div class="form-group col-md-6">
+                    <label for="inputEmail4">Email</label>
+                    <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+                  </div>
+                  <div class="form-group col-md-6">
+                    <label for="inputPassword4">Bank Password</label>
+                    <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
+                  </div>
+                </div>
+                
+                <h2>Shipping Adress</h2>
+
+                        <div class="form-row">
+                          <div class="col">
+                            <input type="text" class="form-control" id="ShippingFirstName" placeholder="First name">
+                          </div>
+                          <div class="col">
+                            <input type="text" class="form-control" id="ShippingLastName" placeholder="Last name">
+                          </div>
+                        </div>
+
+                <div class="form-group">
+                  <label for="inputAddress">Address</label>
+                  <input type="text" class="form-control" id="inputAddress ShippingAddress" placeholder="1234 Main St">
+                </div>
+                <div class="form-group">
+                  <label for="inputAddress2">Address 2</label>
+                  <input type="text" class="form-control" id="inputAddress2 ShippingAddress2" placeholder="Apartment, studio, or floor">
+                </div>
+                <div class="form-row">
+                  <div class="form-group col-md-6">
+                    <label for="inputCity">City</label>
+                    <input type="text" class="form-control" id="inputCity ShippingCity">
+                  </div>
+                  <div class="form-group col-md-4">
+                    <label for="inputState">State</label>
+                    <select id="inputState ShippingState" class="form-control">
+                      <option selected>Choose...</option>
+                      <option>...</option>
+                    </select>
+                  </div>
+                  <div class="form-group col-md-2">
+                    <label for="inputZip">Zip</label>
+                    <input type="text" class="form-control" id="inputZip ShippingZip">
+                  </div>
+                </div>
+
+                <h2>Billing Adress</h2>
+                <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="customCheck1" onclick="SetBilling(this.checked);"/>
+                        <label class="custom-control-label" for="customCheck1">Same as Shipping Address</label>
+                      </div>
+                <div class="form-row">
+                        <div class="col">
+                          <input type="text" class="form-control" id="BillingFirstName" placeholder="First name">
+                        </div>
+                        <div class="col">
+                          <input type="text" class="form-control" id="BillingLastName" placeholder="Last name">
+                        </div>
+                      </div>
+
+              <div class="form-group">
+                <label for="inputAddress">Address</label>
+                <input type="text" class="form-control" id="inputAddress BillingAddress" placeholder="1234 Main St">
+              </div>
+              <div class="form-group">
+                <label for="inputAddress2">Address 2</label>
+                <input type="text" class="form-control" id="inputAddress2 BillingAddress2"  placeholder="Apartment, studio, or floor">
+              </div>
+              <div class="form-row">
+                <div class="form-group col-md-6">
+                  <label for="inputCity">City</label>
+                  <input type="text" class="form-control" id="inputCity BillingCity">
+                </div>
+                <div class="form-group col-md-4">
+                  <label for="inputState">State</label>
+                  <select id="inputState BillingState" class="form-control">
+                    <option selected>Choose...</option>
+                    <option>...</option>
+                  </select>
+                </div>
+                <div class="form-group col-md-2">
+                  <label for="inputZip">Zip</label>
+                  <input type="text" id="BillingZip inputZip" class="form-control" >
+                </div>
+              </div>
+
+              <h2>Payment Information</h2>
+        
+                    <div class="form-group">
+                      <label class="col control-label" for="card-holder-name">Name on Card</label>
+                      <div class="col">
+                        <input type="text" class="form-control" name="card-holder-name" id="card-holder-name" placeholder="Card Holder's Name">
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <label class="col control-label" for="card-number">Card Number</label>
+                      <div class="col">
+                        <input type="text" class="form-control" name="card-number" id="card-number" placeholder="Debit/Credit Card Number">
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <label class="col-sm-3 control-label" for="expiry-month">Expiration Date</label>
+                      <div class="col-sm-9">
+                        <div class="row">
+                          <div class="col-xs-3">
+                            <select class="form-control col-sm-2" name="expiry-month" id="expiry-month">
+                              <option>Month</option>
+                              <option value="01">Jan (01)</option>
+                              <option value="02">Feb (02)</option>
+                              <option value="03">Mar (03)</option>
+                              <option value="04">Apr (04)</option>
+                              <option value="05">May (05)</option>
+                              <option value="06">June (06)</option>
+                              <option value="07">July (07)</option>
+                              <option value="08">Aug (08)</option>
+                              <option value="09">Sep (09)</option>
+                              <option value="10">Oct (10)</option>
+                              <option value="11">Nov (11)</option>
+                              <option value="12">Dec (12)</option>
+                            </select>
+                          </div>
+                          <div class="col-xs-3">
+                            <select class="form-control" name="expiry-year">
+                              <option value="13">2013</option>
+                              <option value="14">2014</option>
+                              <option value="15">2015</option>
+                              <option value="16">2016</option>
+                              <option value="17">2017</option>
+                              <option value="18">2018</option>
+                              <option value="19">2019</option>
+                              <option value="20">2020</option>
+                              <option value="21">2021</option>
+                              <option value="22">2022</option>
+                              <option value="23">2023</option>
+                            </select>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <label class="col-sm-3 control-label" for="cvv">Card CVV</label>
+                      <div class="col-sm-3">
+                        <input type="text" class="form-control" name="cvv" id="cvv" placeholder="Security Code">
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <div class="col-sm-offset-3 col-sm-9">
+                        <button type="button" class="btn btn-success">Pay Now</button>
+                      </div>
+                    </div>
+
+                <div class="form-group">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="gridCheck">
+                    <label class="form-check-label" for="gridCheck">
+                      Check me out
+                    </label>
+                  </div>
+                </div>
+                <button type="submit" class="btn btn-primary">Sign in</button>
+              </form>
+            </div>
+    
+
+        <!--START CARD SECTION-->
+<div class="row" id="underline">
+        <h1>Featured Posts</h1>
+</div>
+        <div class="row">
+        <div class="card">
+            <img class="card-img-top" src="https://i.pinimg.com/564x/cb/87/6a/cb876a79fb967a7534b253810a12201e.jpg" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">Chamomille Home</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                <a href="#" class="btn btn-primary">Read More</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <img class="card-img-top" src="https://i.pinimg.com/564x/a6/b8/20/a6b8203cf90893c299fcd53f8ff61d65.jpg" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">Will your wallpaper give you nightmares?</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                <a href="#" class="btn btn-primary">Read More</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <img class="card-img-top" src="https://i.pinimg.com/564x/72/1c/45/721c45a9e7a3d4b9016b2aecfbcfa6ec.jpg" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">Train your dog to be a statue</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                <a href="#" class="btn btn-primary">Read More</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <img class="card-img-top" src="https://i.pinimg.com/564x/4e/36/67/4e3667321072373149ce701b7d2d2648.jpg" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">Making pots off of old household items</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                <a href="#" class="btn btn-primary">Read More</a>
+            </div>
+        </div>
+
+    </div>
+
+    </main>
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+
+<script type="text/javascript">  
+  
+    function SetBilling(checked) {  
+              if (checked) {  
+                        document.getElementById('BillingFirstName').value = document.getElementById('ShippingFirstName').value;
+                        document.getElementById('BillingLastName').value = document.getElementById('ShippingLastName').value;
+                        document.getElementById('BillingAddress').value = document.getElementById('ShippingAddress').value;
+                        document.getElementById('BillingAddress2').value = document.getElementById('ShippingAddress2').value;   
+                        document.getElementById('BillingCity').value = document.getElementById('ShippingCity').value;   
+                        document.getElementById('BillingState').value = document.getElementById('ShippingState').value;   
+                        document.getElementById('BillingZip').value = document.getElementById('ShippingZip').value;   
+   
+              } else {  
+                        document.getElementById('BillingFirstName').value = '';
+                        document.getElementById('BillingLastName').value = '';
+                        document.getElementById('BillingAddress').value = '';
+                        document.getElementById('BillingAddress2').value = '';   
+                        document.getElementById('BillingCity').value = '';   
+                        document.getElementById('BillingState').value = '';   
+                        document.getElementById('BillingZip').value = '';   
+                         
+              }  
+    }  
+      
+    </script>
+</body>
+
+</html>
