@@ -43,8 +43,9 @@ h1 {
 #mission {
     position: absolute;
     z-index: 10;
-    top: 448px;
+    /* top: 448px; */
     right: 20px;
+    margin-top: -38px;
 }
 
 
@@ -120,7 +121,32 @@ nav a {
 
 
 /* Smartphones (portrait and landscape) ----------- */
-@media only screen and (min-width : 560px) {
+@media only screen and (min-width : 768px) {
+    .jumbotron {
+        padding: 10rem;
+        background-color: #e9ecef00;
+    }
+
+    #our {
+        padding: ;
+        position: absolute;
+        top: 105px;
+        left: 129px;
+        z-index: 10;
+    }
+    
+    h1 {
+        font-size: 80px;
+        font-weight: 900;
+    }
+
+    #mission {
+        position: absolute;
+        z-index: 10;
+        /* top: 448px; */
+        right: 126px;
+        margin-top: -38px;
+    }
 /* Styles */
 }
 
@@ -154,11 +180,12 @@ h1 {
     display: flex;
 }
 
+
 nav img {
     vertical-align: middle;
     border-style: none;
     text-align: center;
-    margin: 0 auto;
+    margin: -20px auto 0;
 }
 
 .navbar-expand-lg .navbar-nav {
@@ -171,8 +198,8 @@ nav img {
     margin: 35px 40px;
 }
 
-.jumbotron{
-    padding: 15rem 21rem;
+.jumbotron {
+    padding: 14rem;
 }
 
 .carousel-caption {
@@ -192,16 +219,17 @@ nav img {
 #our {
     padding: ;
     position: absolute;
-    top: 165px;
-    left: 276px;
+    top: 143px;
+    left: 177px;
     z-index: 10;
 }
 
-#mission{
-position: absolute;
-        z-index: 10;
-        top: 735px;
-        right: 204px;
+#mission {
+    position: absolute;
+    z-index: 10;
+    /* top: 735px; */
+    right: 167px;
+    margin-top:-65px;
 }
 
 
@@ -215,14 +243,28 @@ and (min-width : 1370px) {
 #mission {
     position: absolute;
     z-index: 10;
-    top: 843px;
-    right: 278px;
+    /* top: 843px; */
+    right: 271px;
+    margin-top:-100px;
+}
+
+#our {
+    padding: ;
+    position: absolute;
+    top: 240px;
+    left: 281px;
+    z-index: 10;
 }
 
 h1 {
     font-size: 169px;
     font-weight: 900;
 }
+
+.jumbotron {
+    padding: 22rem;
+}
+
 }
 
 /* Large screens ----------- */
