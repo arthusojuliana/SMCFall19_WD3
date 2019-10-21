@@ -104,7 +104,7 @@ nav a {
 }
 
 .mission-box {
-    min-height: 1050px;
+    padding: 80px 0px;
     background-color: #CE796B;
     margin: auto;
     position: absolute;
@@ -112,12 +112,22 @@ nav a {
     left: 0;
     top: auto;
     margin-top: -40px;
+    min-width: 100%;
 }
 
 .mission-p{
     float: left;
 }
 
+#sidenote{
+    font-family: 'Open Sans', sans-serif;
+    color: #FFEDEA;
+    font-weight: 300;
+    width: 90%;
+    margin: 20px auto;
+    font-style: italic;
+    font-size: 14px
+}
 
 
 /* Smartphones (portrait and landscape) ----------- */
@@ -147,6 +157,45 @@ nav a {
         right: 126px;
         margin-top: -38px;
     }
+
+
+    .h3, h3 {
+        font-size: 45px;
+        /* line-height: 60px; */
+        width: 75%;
+        line-height: 40px;
+        /* line-break: loose; */
+        margin: 65px auto;
+        line-height: 65px;
+    }
+
+   p {
+        font-family: 'Open Sans', sans-serif;
+        color: #FFEDEA;
+        font-weight: 300;
+        font-size: 25px;
+        line-height: 45px;
+        width: 75%;
+        margin: 30px auto;
+    }
+
+    #sidenote{
+        font-family: 'Open Sans', sans-serif;
+    color: #FFEDEA;
+    font-weight: 300;
+    width: 75%;
+    margin: 30px auto;
+        font-style: italic;
+        font-size: 18px
+    }
+
+    .mission-box {
+        padding:80px 0px;
+        background-color: #CE796B;
+        margin: auto;
+        /* position: absolute; */
+        z-index: -2;
+    }
 /* Styles */
 }
 
@@ -159,6 +208,30 @@ and (min-width : 995px){
 h1 {
     font-size: 121px;
     font-weight: 900;
+}
+
+.h3, h3{
+    width: 65%;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    color: #FFEDEA;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 55px;
+    width: 65%;
+    margin: 30px auto;
+}
+
+#sidenote {
+    font-family: 'Open Sans', sans-serif;
+    color: #FFEDEA;
+    font-weight: 300;
+    width: 65%;
+    margin: 60px auto;
+    font-style: italic;
+    font-size: 14px;
 }
 
 .navbar-nav {
