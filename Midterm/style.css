@@ -63,8 +63,8 @@ ul.social-footer2 {	margin: 0;padding: 0;	width: auto;}
 ul.social-footer2 li {display: inline-block;padding: 0;}
 ul.social-footer2 li a:hover {background-color:#ff8d1e;}
 ul.social-footer2 li a {display: block;	height:30px;width: 30px;text-align: center;}
-.btn{background-color: #ff8d1e; color:#fff;}
-.btn:hover, .btn:focus, .btn.active {background: #4b92dc;color: #fff;
+.bttn{background-color: #ff8d1e; color:#fff;}
+.bttn:hover, .bttn:focus, .bttn.active {background: #4b92dc;color: #fff;
 -webkit-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
 -moz-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
 -ms-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
@@ -99,13 +99,35 @@ footer a{
     color: #CE796B
 }
 
-.btn:hover, .btn:focus, .btn.active {
+.bttn:hover, .bttn:focus, .bttn.active {
     background: #b7b7b7;
     color: #fff;
 }
 
-footer .btn{
+footer .bttn {
     background: #CE796B;
+    padding: 14px;
+    border-radius: 6px;
+    border: solid 1px;
+}
+
+/*END FOOTER STUFF*/
+
+/*APP PAGE STUFF*/
+
+
+.btn {
+    background: #CE796B;
+    color: #F4D9D4;
+    font-size: 24px;
+    font-family: 'Open Sans';
+    /* display: flex; */
+    text-align: center;
+    /* margin: auto; */
+    margin-top: 130px;
+    padding: 27px;
+    width: 85%;
+    border: solid 1px;
 }
 
 body{
@@ -116,7 +138,7 @@ body{
     min-height: 100px;
 }
 
-.mobtext {
+.mobtext2 {
     display: block;
     text-align: left;
     width: 95%;
@@ -148,7 +170,7 @@ body{
     width: 90%;
 }
 
-.desktext{
+.desktext, .desktext2{
     display: none;
 }
 
@@ -278,7 +300,7 @@ nav a {
     max-width: 90%;
 }
 
-#phone {
+.phone {
     height: 500px;
     width: auto;
     float: right;
@@ -336,6 +358,45 @@ nav a {
     /* text-align: right; */
 }
 
+#adv-box2 {
+    padding: 80px 0px;
+    background-color: #B7B7B7;
+    margin: auto;
+    /* position: relative; */
+    display: flex;
+    z-index: -1;
+    height: 748px;
+    left: 0;
+    top: auto;
+    margin-top: 80px;
+    width: 100%;
+}
+
+.mobtext2 {
+    display: block;
+    text-align: right;
+    width: 80%;
+    /* margin-left: 63%; */
+    padding-right: -44px;
+}
+
+
+.btn {
+    background: #CE796B;
+    color: #F4D9D4;
+    font-size: 24px;
+    font-family: 'Open Sans';
+    /* display: flex; */
+    text-align: center;
+    /* margin: auto; */
+    top: 484px;
+    left: 51px;
+    padding: 18px;
+    width: 67%;
+    border: solid 1px;
+    position: absolute;
+}
+
 
 @media only screen and (min-width : 535px){
     .mobtext {
@@ -346,10 +407,42 @@ nav a {
         font-size: 46px;
         padding-right: -44px;
     }
+    .desktext{
+        display:none;
+    }
 }
 
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-width : 768px) {
+    #adv-box2 {
+        padding: 80px 0px;
+        background-color: #B7B7B7;
+        margin: auto;
+        position: relative;
+        display: flex;
+        z-index: -1;
+        height: 594px;
+        left: 0;
+        top: auto;
+        margin-top: 240px;
+        max-width: 80%;
+    }
+    
+    .btn {
+        background: #CE796B;
+        color: #F4D9D4;
+        font-size: 24px;
+        font-family: 'Open Sans';
+        display: flex;
+        /* text-align: center; */
+        /* margin: auto; */
+        /* margin-top: 130px; */
+        padding: 27px;
+        width: 34%;
+        top: 243px;
+        border: solid 1px;
+        left: 30px;
+    }
 
     .mobtext{
         display: none;
@@ -357,6 +450,15 @@ nav a {
 
     .desktext{
         display: block;
+    }
+
+    .mobtext2{
+        display: block;
+    
+    }
+
+    .desktext2{
+        display: none;
     }
 
     #adv-box {
@@ -645,6 +747,15 @@ nav img {
     /* top: 735px; */
     right: 167px;
     margin-top:-65px;
+}
+
+.mobtext{
+    display: none;
+
+}
+
+.desktext{
+    display: block;
 }
 
 
