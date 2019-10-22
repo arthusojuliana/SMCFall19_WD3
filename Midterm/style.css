@@ -21,6 +21,10 @@
     border-bottom: solid 2px;
 }
 
+.card-header{
+    color: #CE796B;
+}
+
 .col p {
     line-height: 30px;
     width: 80%;
