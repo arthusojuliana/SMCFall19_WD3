@@ -32,9 +32,11 @@
 
 #Offerings {
     position: absolute;
-    top: 751px;
+    top: 501px;
     margin-bottom: 30px;
 }
+
+
 
 #horicard{
     position: relative;
@@ -534,6 +536,13 @@ nav a {
         max-width: 80%;
     }
     
+    #Offerings {
+        position: absolute;
+        top: 751px;
+        margin-bottom: 30px;
+    }
+
+
     .btn {
         background: #CE796B;
         color: #F4D9D4;
