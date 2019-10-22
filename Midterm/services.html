@@ -13,10 +13,45 @@
 
     <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans&display=swap" rel="stylesheet">
 
-    <title>Shoofly - Download our App</title>
+    <title>Shoofly</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script>
+	$(document).ready(function(){
+		$("#myModal").modal('show');
+	});
+</script>
 </head>
 
 <body>
+
+        <div id="myModal" class="modal fade">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                            <h4 class="modal-title">Subscribe our Newsletter</h4>
+                        </div>
+                        <div class="modal-body">
+                            <p>Subscribe to our mailing list to get the latest updates straight in your inbox.</p>
+                            <form>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Name">
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" class="form-control" placeholder="Email Address">
+
+                                </div>
+                                <div class="custom-control custom-switch">
+                                        <input type="checkbox" class="custom-control-input" id="customSwitch1">
+                                        <label class="custom-control-label" for="customSwitch1"><p>I'd love to sell my soul to the Universe.</p></label>
+                                      </div>
+                                <button type="submit" class="btn btn-primary">Subscribe</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
     <nav class="navbar fixed-top navbar-expand-lg navbar-light">
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
@@ -37,21 +72,139 @@
     </nav>
 
     <main>
-       
+        
+        <!--START CAROUSEL!!!-->
+        <div class="jumbotron">
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
 
-        <!--APP BANNER-->
+                        <img class="d-block w-100" id="slider1"
+                            src="https://i.pinimg.com/564x/44/8d/24/448d245efd5f20c6abd099515d6e6e7a.jpg"
+                            alt="First slide">
+
+                    </div>
+                    <div class="carousel-item">
+
+                        <img class="d-block w-100" id="slider2"
+                            src="https://i.pinimg.com/564x/c8/2e/9c/c82e9cf689c4b8ae6fd056c53a957bbe.jpg"
+                            alt="Second slide">
+
+                    </div>
+                    <div class="carousel-item">
+
+                        <img class="d-block w-100" id="slider3"
+                            src="https://i.pinimg.com/564x/b3/15/08/b31508cde28abf1fcb1141ba5dd2b05e.jpg"
+                            alt="Third slide">
+
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+            <h1 id="Offerings">OFFERINGS</h1>
+        </div>
+
+
+        <!--SERVICE CARDS-->
         <div class="container-fluid">
-            <div class="mission-box" id="adv-box2">
-                <h2 class="mobtext mobtext2" id="sideText">Take us <br>with you,<br> Every<br>where <button class="btn">Download App Now</button></h2>
-                <h2 class="desktext desktext2" id="sideText">Take us <br>with you,<br> Everywhere <button class="btn">Download App Now</button></h2>
-                
-                <img class="phone" src="appFace.png">
+                <div class="card">
+                        <h5 class="card-header">Featured</h5>
+                        <div class="card-body">
+                          <h5 class="card-title">Special title treatment</h5>
+                          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                      </div>
+        </div>
+
+
+
+        <!--OUR MISSION CONT-->
+        <div class="container-fluid mission-box">
+
+            <div class="mission-p">
+                <h3>The Universe is here to listen. Connect to it with Shoofly.</h4>
+                    <p>Shoofly is a mindfulness startup seeking to bring awareness to the human power through Universe
+                        manifestation.<br>
+
+                        The company got its name from our main access meditation mantra: Shoo-fly. On our website and
+                        app, you will find a rich community of Manifestation believers, using the power of technology to
+                        connect from all over Venice, CA and participate on our online workshops, which include hot,
+                        prana and acro yoga, group chanting, Crystal sensibility understanding classes, breathing so you
+                        don’t murder your coworker Jessica support, Green juice tasting competitions,
+                        keto-macro-paleo-raw-vegan recipes, and much more<br>
+
+                        Sign up now to become part of this life-changing community, for only $111.77 a month</p>
+
+                    <p id="sidenote">* Must drive an electric vehicle or use bike as a way of transportation for
+                        non-financial related reasons.</p>
             </div>
         </div>
 
         <div class="spacer"></div>
 
-   
+
+     
+
+        <!--BLOG CARDS-->
+
+        <div class="spacer" id="border-bottom"></div>
+        <div class="container-fluid">
+            <div class="jumbotron">
+                <h2 id="latest" id="h2">LATEST</h2>
+                <div class="blog-titleimg"></div>
+                <h2 id="posts" id="h2">POSTS</h2>
+            </div>
+
+            <div class="card-deck">
+                <div class="card">
+                    <a><img src="https://i.pinimg.com/564x/e7/b0/2a/e7b02ab0c8338fccce1d8b47f9f00383.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Holistic Jennifers</h5>
+                        <p class="card-text">How do they do it? What do they eat? How can you be just like them? Find all the answers on this post.</p></a>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">Last updated 3 mins ago</small>
+                    </div>
+                </div>
+                <div class="card">
+                    <a href="blog.html"><img src="https://i.pinimg.com/564x/1d/cd/6e/1dcd6e5396f5884c9736972b113eac7e.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Consientious Weekly Horoscope</h5>
+                        <p class="card-text">If you believe what's written here for you and a 12th of the population with the same sign as you, will dictate your week happenings, you're wise.</p></a>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">Last updated 3 mins ago</small>
+                    </div>
+                </div>
+                <div class="card">
+                    <a><img src="https://i.pinimg.com/474x/61/31/1c/61311c5d09d5d75bdd6added5da79f82.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Moon Yoga with Angels</h5>
+                        <p class="card-text">Learn all about this new practice that will guide you to heaven and back.</p></a>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">Last updated 3 mins ago</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="spacer"></div>
+        <div class="spacer"></div>
+        <div class="spacer"></div>
 
         <!--FOOTER SHENNENIGANS-->
         <footer id="footer" class="footer-1">

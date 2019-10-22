@@ -1,8 +1,41 @@
+.grid-horoscope {
+    width: 80%;
+    height: auto;
+    margin: 25px auto;
+    display: inherit;
+    text-align: center;
+}
+
+#blog-container {
+    margin-top: 50px;
+    background: #b7b7b7;
+    padding: 40px;
+    min-width: 95%;
+    margin: 50px auto 65px;
+}
+
+.col h4 {
+    width: 80%;
+    margin: auto;
+    font-weight: bolder;
+    border-bottom: solid 2px;
+}
+
+.col p {
+    line-height: 30px;
+    width: 80%;
+}
+
 .modal-header .close {
     position: absolute;
     right: 30px;
     top: 21px;
     /* margin: -1rem -1rem -1rem auto; */
+}
+
+#border-bottom {
+    border-bottom: #969696 solid 1px;
+    margin-bottom: 48px;
 }
 
 .modal-content {
@@ -435,6 +468,10 @@ nav a {
     width: 67%;
     border: solid 1px;
     position: absolute;
+}
+
+#weekhor{
+    background-image: url(https://i.pinimg.com/564x/1d/cd/6e/1dcd6e5396f5884c9736972b113eac7e.jpg);
 }
 
 
