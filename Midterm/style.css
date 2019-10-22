@@ -15,6 +15,8 @@ body{
     padding-right: -44px;
 }
 
+
+
 .desktext{
     display: none;
 }
@@ -51,7 +53,7 @@ h1 {
 #our {
     padding: ;
     position: absolute;
-    top: 64px;
+    top: 42px;
     left: 20px;
     z-index: 10;
 }
@@ -107,7 +109,7 @@ nav a {
 }
 
 .jumbotron {
-    padding: 7rem 0rem;
+    padding: 5rem 0rem;
     background-color: #e9ecef00;
 }
 
@@ -174,28 +176,33 @@ nav a {
 
 .blog-titleimg {
     background-image: url(https://i.pinimg.com/564x/81/22/2c/81222c8439c64e7629afe9230574e4e4.jpg);
-    min-height: 420px;
-    width: 90%;
+    min-height: 350px;
+    width: 100%;
     background-position-y: center;
     position: relative;
-    margin: auto;
+    /* margin: auto; */
     top: 0px;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
+
+
 #latest {
     position: relative;
-    top: 65px;
+    top: 32px;
     z-index: 10;
-    left: -60px;
+    left: 6px;
+    font-size: 45px;
 }
 
 #posts {
     position: relative;
     z-index: 10;
-    right: -256px;
-    bottom: 31px;
+    text-align: end;
+    margin-right: 20px;
+    bottom: 21px;
+    font-size: 45px;
     /* text-align: right; */
 }
 
@@ -265,6 +272,18 @@ nav a {
     .jumbotron {
         padding: 10rem;
         background-color: #e9ecef00;
+    }
+
+    .blog-titleimg {
+        background-image: url(https://i.pinimg.com/564x/81/22/2c/81222c8439c64e7629afe9230574e4e4.jpg);
+        min-height: 420px;
+        width: 90%;
+        background-position-y: center;
+        position: relative;
+        margin: auto;
+        top: 0px;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 
     #our {
@@ -338,6 +357,26 @@ nav a {
     
     #h2{
         font-size: 63px;
+    }
+
+    #latest {
+        position: relative;
+        top: 48px;
+        z-index: 10;
+        left: -20px;
+        font-size: 65px;
+    }
+
+    #posts {
+        position: relative;
+        display: inline-block;
+        flex-direction: unset;
+        z-index: 10;
+        text-align: right;
+        right: -216px;
+        bottom: 30px;
+        font-size: 65px;
+        /* text-align: right; */
     }
 /* Styles */
 }
