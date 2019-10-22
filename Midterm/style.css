@@ -3,6 +3,22 @@ body{
     background-color: #F4D9D4;
 }
 
+.spacer{
+    min-height: 100px;
+}
+
+.mobtext {
+    display: block;
+    text-align: left;
+    width: 95%;
+    margin-left: 63%;
+    padding-right: -44px;
+}
+
+.desktext{
+    display: none;
+}
+
 a, p {
     font-family: 'Open Sans', sans-serif;
     color: #FFEDEA;
@@ -107,12 +123,39 @@ nav a {
     padding: 80px 0px;
     background-color: #CE796B;
     margin: auto;
-    position: absolute;
+    position: relative;
+    display: flex;
     z-index: -2;
     left: 0;
     top: auto;
     margin-top: -40px;
-    min-width: 100%;
+    max-width: 100%;
+}
+
+#adv-box {
+    padding: 80px 0px;
+    background-color: #B7B7B7;
+    margin: auto;
+    position: relative;
+    display: flex;
+    z-index: -1;
+    height: 350px;
+    left: 0;
+    top: auto;
+    margin-top: 100px;
+    max-width: 90%;
+}
+
+#phone {
+    height: 500px;
+    width: auto;
+    float: right;
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    right: -6%;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 .mission-p{
@@ -129,9 +172,96 @@ nav a {
     font-size: 14px
 }
 
+.blog-titleimg {
+    background-image: url(https://i.pinimg.com/564x/81/22/2c/81222c8439c64e7629afe9230574e4e4.jpg);
+    min-height: 420px;
+    width: 90%;
+    background-position-y: center;
+    position: relative;
+    margin: auto;
+    top: 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#latest {
+    position: relative;
+    top: 65px;
+    z-index: 10;
+    left: -60px;
+}
+
+#posts {
+    position: relative;
+    z-index: 10;
+    right: -256px;
+    bottom: 31px;
+    /* text-align: right; */
+}
+
+
+@media only screen and (min-width : 535px){
+    .mobtext {
+        display: block;
+        text-align: left;
+        width: 95%;
+        margin-left: 5%;
+        font-size: 46px;
+        padding-right: -44px;
+    }
+}
 
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-width : 768px) {
+
+    .mobtext{
+        display: none;
+    }
+
+    .desktext{
+        display: block;
+    }
+
+    #adv-box {
+        padding: 80px 0px;
+        background-color: #B7B7B7;
+        margin: auto;
+        position: relative;
+        display: flex;
+        z-index: -1;
+        height: 350px;
+        left: 0;
+        top: auto;
+        margin-top: 240px;
+        max-width: 80%;
+    }
+    
+    #phone {
+        height: 500px;
+        width: auto;
+        float: right;
+        display: flex;
+        position: absolute;
+        flex-direction: column;
+        right: -6%;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    
+    .mission-p{
+        float: left;
+    }
+    
+    #sidenote{
+        font-family: 'Open Sans', sans-serif;
+        color: #FFEDEA;
+        font-weight: 300;
+        width: 90%;
+        margin: 20px auto;
+        font-style: italic;
+        font-size: 14px
+    }
+
     .jumbotron {
         padding: 10rem;
         background-color: #e9ecef00;
@@ -196,6 +326,19 @@ nav a {
         /* position: absolute; */
         z-index: -2;
     }
+
+    .h2, h2 {
+        font-size: 4rem;
+        font-weight: 900;
+        width: 50%;
+        margin-left: 4%;
+        margin-top: -2%;
+        tranform: translatey(-50%);
+    }
+    
+    #h2{
+        font-size: 63px;
+    }
 /* Styles */
 }
 
@@ -212,6 +355,19 @@ h1 {
 
 .h3, h3{
     width: 65%;
+}
+
+.h2, h2 {
+    font-size: 4rem;
+    font-weight: 900;
+    width: 50%;
+    margin-left: 4%;
+    margin-top: -2%;
+    tranform: translatey(-50%);
+}
+
+#h2{
+    font-size: 63px;
 }
 
 p {
