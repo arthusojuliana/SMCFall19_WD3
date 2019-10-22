@@ -26,6 +26,31 @@
     width: 80%;
 }
 
+#Offerings {
+    position: absolute;
+    top: 751px;
+    margin-bottom: 30px;
+}
+
+#horicard{
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    /* min-width: 0; */
+    max-width: 85%;
+    word-wrap: break-word;
+    /* background-color: #fff; */
+    background-color: #E2C2C6;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    margin: auto;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
 .modal-header .close {
     position: absolute;
     right: 30px;

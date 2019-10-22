@@ -16,42 +16,12 @@
     <title>Shoofly</title>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-<script>
-	$(document).ready(function(){
-		$("#myModal").modal('show');
-	});
-</script>
+
 </head>
 
 <body>
 
-        <div id="myModal" class="modal fade">
-                <div class="modal-dialog">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                            <h4 class="modal-title">Subscribe our Newsletter</h4>
-                        </div>
-                        <div class="modal-body">
-                            <p>Subscribe to our mailing list to get the latest updates straight in your inbox.</p>
-                            <form>
-                                <div class="form-group">
-                                    <input type="text" class="form-control" placeholder="Name">
-                                </div>
-                                <div class="form-group">
-                                    <input type="email" class="form-control" placeholder="Email Address">
 
-                                </div>
-                                <div class="custom-control custom-switch">
-                                        <input type="checkbox" class="custom-control-input" id="customSwitch1">
-                                        <label class="custom-control-label" for="customSwitch1"><p>I'd love to sell my soul to the Universe.</p></label>
-                                      </div>
-                                <button type="submit" class="btn btn-primary">Subscribe</button>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
     <nav class="navbar fixed-top navbar-expand-lg navbar-light">
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
@@ -82,24 +52,26 @@
                     <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
                 </ol>
                 <div class="carousel-inner">
+                    
                     <div class="carousel-item active">
 
                         <img class="d-block w-100" id="slider1"
-                            src="https://i.pinimg.com/564x/44/8d/24/448d245efd5f20c6abd099515d6e6e7a.jpg"
+                            src="https://i.pinimg.com/564x/f7/76/8c/f7768ccb77d99175bc331871e5e8827b.jpg"
                             alt="First slide">
+                           
 
                     </div>
                     <div class="carousel-item">
 
                         <img class="d-block w-100" id="slider2"
-                            src="https://i.pinimg.com/564x/c8/2e/9c/c82e9cf689c4b8ae6fd056c53a957bbe.jpg"
+                            src="https://i.pinimg.com/474x/a2/90/9d/a2909d75dfe9977f757deb28f2e087be.jpg"
                             alt="Second slide">
 
                     </div>
                     <div class="carousel-item">
 
                         <img class="d-block w-100" id="slider3"
-                            src="https://i.pinimg.com/564x/b3/15/08/b31508cde28abf1fcb1141ba5dd2b05e.jpg"
+                            src="https://i.pinimg.com/474x/4f/53/25/4f5325b9132ea9273529e7e8424d9119.jpg"
                             alt="Third slide">
 
                     </div>
@@ -119,54 +91,46 @@
 
         <!--SERVICE CARDS-->
         <div class="container-fluid">
-                <div class="card">
-                        <h5 class="card-header">Featured</h5>
+                <div class="card" id="horicard">
+                        <h5 class="card-header">Beach Goat Shoofly Yoga</h5>
                         <div class="card-body">
-                          <h5 class="card-title">Special title treatment</h5>
-                          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                          <h5 class="card-title">Tuesdays and Thursdays at 8am</h5>
+                          <p class="card-text">Thundercats cred next level, ugh tilde meditation pok pok palo santo dreamcatcher hot chicken street art truffaut. IPhone retro +1 echo park, pitchfork pabst pug shaman vegan aesthetic hoodie vexillologist chicharrones YOLO. Kogi selvage chicharrones food truck raclette, sriracha seitan. Leggings +1 tattooed keytar ramps, iceland narwhal. Adaptogen affogato glossier hoodie, drinking vinegar whatever taiyaki snackwave austin hella small batch la croix listicle marfa kickstarter.</p>
                         </div>
                       </div>
+
+                      <div class="card" id="horicard">
+                            <h5 class="card-header">The Shoofliest form of Meditation (beginner)</h5>
+                            <div class="card-body">
+                              <h5 class="card-title">Saturdays at 6am</h5>
+                              <p class="card-text">Hashtag fanny pack mumblecore swag artisan. Cray blue bottle chambray normcore squid selvage, sustainable typewriter williamsburg cornhole banjo slow-carb sartorial. Actually seitan echo park you probably haven't heard of them, godard irony selfies direct trade tote bag crucifix tousled sriracha chillwave tofu shaman. Pinterest migas butcher actually beard, kombucha cronut yr keytar church-key street art. Squid scenester hell of, bicycle rights chia marfa intelligentsia messenger bag humblebrag microdosing. Blog hoodie salvia, mustache chicharrones skateboard vexillologist snackwave twee affogato viral. Sriracha affogato bespoke keytar echo park subway tile cornhole cardigan street art.</p>
+                            </div>
+                          </div>
+
+                          <div class="card" id="horicard">
+                                <h5 class="card-header">The Shoofliest form of Meditation (Intermediate)</h5>
+                                <div class="card-body">
+                                  <h5 class="card-title">Mondays at 6am</h5>
+                                  <p class="card-text">Prism salvia selvage, snackwave coloring book farm-to-table thundercats venmo deep v hoodie vegan af authentic. Swag keffiyeh direct trade pickled, knausgaard trust fund crucifix skateboard live-edge snackwave. Succulents taiyaki DIY, crucifix live-edge pinterest kombucha bespoke. Synth affogato tumeric humblebrag bitters narwhal polaroid next level scenester shoreditch banh mi microdosing fanny pack franzen.</p>
+                                </div>
+                              </div>
+
+                              <div class="card" id="horicard">
+                                    <h5 class="card-header">The Shoofliest form of Meditation (Urban Monk Status)</h5>
+                                    <div class="card-body">
+                                      <h5 class="card-title">Sundays at 4am</h5>
+                                      <p class="card-text">Plaid heirloom ennui, normcore quinoa whatever neutra. Waistcoat actually vexillologist, VHS hoodie tousled listicle wolf shoreditch jianbing celiac ennui stumptown. Raw denim pug plaid pabst tumblr kickstarter irony offal post-ironic. Tote bag sriracha literally PBR&B, XOXO food truck bespoke unicorn farm-to-table iPhone offal iceland street art tilde.</p>
+                                    </div>
+                                  </div>
         </div>
 
 
 
-        <!--OUR MISSION CONT-->
-        <div class="container-fluid mission-box">
+        
 
-            <div class="mission-p">
-                <h3>The Universe is here to listen. Connect to it with Shoofly.</h4>
-                    <p>Shoofly is a mindfulness startup seeking to bring awareness to the human power through Universe
-                        manifestation.<br>
-
-                        The company got its name from our main access meditation mantra: Shoo-fly. On our website and
-                        app, you will find a rich community of Manifestation believers, using the power of technology to
-                        connect from all over Venice, CA and participate on our online workshops, which include hot,
-                        prana and acro yoga, group chanting, Crystal sensibility understanding classes, breathing so you
-                        don’t murder your coworker Jessica support, Green juice tasting competitions,
-                        keto-macro-paleo-raw-vegan recipes, and much more<br>
-
-                        Sign up now to become part of this life-changing community, for only $111.77 a month</p>
-
-                    <p id="sidenote">* Must drive an electric vehicle or use bike as a way of transportation for
-                        non-financial related reasons.</p>
-            </div>
-        </div>
-
-        <div class="spacer"></div>
-
-
-     
-
-        <!--BLOG CARDS-->
-
+       
         <div class="spacer" id="border-bottom"></div>
-        <div class="container-fluid">
-            <div class="jumbotron">
-                <h2 id="latest" id="h2">LATEST</h2>
-                <div class="blog-titleimg"></div>
-                <h2 id="posts" id="h2">POSTS</h2>
-            </div>
+       
 
             <div class="card-deck">
                 <div class="card">
