@@ -1,4 +1,44 @@
+.modal-header .close {
+    position: absolute;
+    right: 30px;
+    top: 21px;
+    /* margin: -1rem -1rem -1rem auto; */
+}
 
+.modal-content {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 100%;
+    pointer-events: auto;
+    background-color: #E2C2C6;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.2);
+    border-radius: .3rem;
+    outline: 0;
+}
+
+.modal-body p {
+    font-family: 'Open Sans', sans-serif;
+    color: #FFEDEA;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    width: 100%;
+    margin: 15px auto 40px;
+}
+
+.custom-control-label p {
+    font-family: 'Open Sans', sans-serif;
+    color: #FFEDEA;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;
+    width: 100%;
+    margin: 2px auto 215px;
+}
 /*==================== 
 	Footer 
 ====================== */
