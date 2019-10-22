@@ -182,7 +182,6 @@ h1 {
 }
 
 #our {
-    padding: ;
     position: absolute;
     top: 42px;
     left: 20px;
@@ -435,7 +434,7 @@ nav a {
     }
 
     #our {
-        padding: ;
+       
         position: absolute;
         top: 105px;
         left: 129px;
@@ -500,7 +499,7 @@ nav a {
         width: 50%;
         margin-left: 4%;
         margin-top: -2%;
-        tranform: translatey(-50%);
+        /*transform: translatey(-50%);*/
     }
     
     #h2{
@@ -550,7 +549,7 @@ h1 {
     width: 50%;
     margin-left: 4%;
     margin-top: -2%;
-    tranform: translatey(-50%);
+    /*transform: translatey(-50%);*/
 }
 
 #h2{
@@ -633,7 +632,7 @@ nav img {
 }
 
 #our {
-    padding: ;
+     
     position: absolute;
     top: 143px;
     left: 177px;
@@ -669,7 +668,7 @@ main{
 }
 
 #our {
-    padding: ;
+    
     position: absolute;
     top: 240px;
     left: 281px;
