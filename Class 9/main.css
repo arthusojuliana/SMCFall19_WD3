@@ -74,7 +74,14 @@
     top: 50%;
     transform: translateY(-50%);
     animation-delay: 14s;
-    animation: mymove3 2s 1;
+    animation: mymove4 2s 1;
+}
+
+@keyframes mymove4{
+    from {transform: rotate(0deg);}
+    to {transform: rotate(-15deg);}
+    from{top: 0%;}
+    to {top: 0%;}
 }
 
 .block5{
@@ -85,6 +92,15 @@
     position: relative;
     top: 50%;
     transform: translateY(-50%);
+    animation-delay: 17s;
+    animation: mymove5 2s 1;
+}
+
+@keyframes mymove5{
+    from {transform: rotate(0deg);}
+    to {transform: rotate(-15deg);}
+    from{top: 0%;}
+    to {top: 0%;}
 }
 
 .block6{
@@ -95,6 +111,15 @@
     position: relative;
     top: 50%;
     transform: translateY(-50%);
+    animation-delay: 20s;
+    animation: mymove6 2s 1;
+}
+
+@keyframes mymove6{
+    from {transform: rotate(0deg);}
+    to {transform: rotate(-15deg);}
+    from{top: 0%;}
+    to {top: 0%;}
 }
 
 .h1, h1 {
@@ -105,4 +130,14 @@
     top: 50%;
     transform: translatey(-50%);
     color: darkcyan;
+    animation-delay: 23s;
+    animation: mymove7 2s 1;
 }
+
+@keyframes mymove7{
+    from {transform: rotate(0deg);}
+    to {transform: rotate(75deg);}
+    from{top: 0%;}
+    to {top: 0%;}
+}
+
