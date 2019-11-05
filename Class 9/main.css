@@ -1,0 +1,108 @@
+.jumbotron{
+    /*background-image: linear-gradient(to bottom right cornflowerblue 0%, cornsilk 20%);*/
+
+    
+}
+
+.container {
+    height: 800px;
+    width: 950px;
+    
+}
+
+.block1{
+    height: 700px;
+    width: 700px;
+    margin: auto;
+    background-color: cadetblue;
+    margin-top: 50%;
+    transform: translateY(-50%);
+    animation: mymove 3s 1;
+}
+
+@keyframes mymove{
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+.block2{
+    height: 600px;
+    width: 600px;
+    margin: auto;
+    background-color: pink;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    animation-delay: 4s;
+    animation: mymove2 2s 1;
+
+}
+
+@keyframes mymove2{
+    from {transform: rotate(0deg);}
+    to {transform: rotate(-15deg);}
+    from{top: 0%;}
+    to {top: 0%;}
+}
+
+
+.block3{
+    height: 500px;
+    width: 500px;
+    margin: auto;
+    background-color: cadetblue;
+    position: relative;
+   top: 50%;
+    transform: translateY(-50%);
+    animation-delay: 11s;
+    animation: mymove3 2s 1;
+}
+
+@keyframes mymove3{
+    from {transform: rotate(0deg);}
+    to {transform: rotate(-15deg);}
+    from{top: 0%;}
+    to {top: 0%;}
+}
+
+.block4{
+    height: 400px;
+    width: 400px;
+    margin: auto;
+    background-color: pink;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    animation-delay: 14s;
+    animation: mymove3 2s 1;
+}
+
+.block5{
+    height: 300px;
+    width: 300px;
+    margin: auto;
+    background-color: cadetblue;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.block6{
+    height: 200px;
+    width: 200px;
+    margin: auto;
+    background-color: pink;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.h1, h1 {
+    font-size: 100px;
+    margin: auto;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    transform: translatey(-50%);
+    color: darkcyan;
+}
