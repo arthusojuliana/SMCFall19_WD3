@@ -134,7 +134,7 @@
     animation: mymove7 2s 1;
 }
 
-@keyframes mymove7{
+@keyframes mymove6{
     from {transform: rotate(0deg);}
     to {transform: rotate(75deg);}
     from{top: 0%;}
