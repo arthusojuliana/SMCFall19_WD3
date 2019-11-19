@@ -3,11 +3,11 @@ var ctx = canvas.getContext("2d");
 
 var ballX = canvas.width/2;
 var ballY = canvas.height/2;
-var ballColor = 'rgb(0, 155, 155)';
-var ballRadius = 50;
+var ballColor = 'rgb(255, 192, 191)';
+var ballRadius = 15;
 
-var speedX = 5;
-var speedY = 3;
+var speedX = 12;
+var speedY = 6;
 
 var directionDown = true;
 var directionRight = true;
@@ -18,7 +18,7 @@ function animate(){
 
     ctx.beginPath();
     ctx.fillStyle = ballColor;
-    ctx.strokeStyle = 'black';
+    ctx.strokeStyle = 'rgba(255, 255, 255, 0.3)';
     ctx.arc(ballX, ballY, ballRadius, 0, 2*Math.PI);
     ctx.fill();
     ctx.stroke();
@@ -57,6 +57,6 @@ canvas.addEventListener("click", function(event){
     var distY = Math.abs(ballY - event.clientY);
 
     if(distX < ballRadius && distY < ballRadius){
-        console.log('FIRE!!!!!!');
+        alert('Hmm, ya so agile.')
     }
 })
