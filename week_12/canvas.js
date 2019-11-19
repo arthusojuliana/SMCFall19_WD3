@@ -60,3 +60,7 @@ canvas.addEventListener("click", function(event){
         alert('Hmm, ya so agile.')
     }
 })
+
+function myFunction() {
+    document.getElementsByName("ball").style.color = "red";
+  }
