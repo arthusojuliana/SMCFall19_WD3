@@ -1,0 +1,15 @@
+.container-fluid{
+    margin: auto;
+    background-color: darkgray;
+    border: 10px solid chocolate;
+}
+
+.row{
+    margin: auto;
+}
+
+h1{
+    margin: 40px auto;
+    text-align: center;
+    color: chocolate;
+}
