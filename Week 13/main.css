@@ -1,9 +1,14 @@
 .container-fluid{
     margin: auto;
+    max-width: 80%;
     background-color: darkgray;
     border: 10px solid chocolate;
 }
 
+picture{
+    max-width: 80%;
+    margin: auto;
+}
 .row{
     margin: auto;
 }
