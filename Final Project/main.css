@@ -3,6 +3,17 @@ h1,h2,h3,h4,h5,a,li,p,ul,button,footer{
     font-family: 'Montserrat', sans-serif;
 }
 
+.h2, h2 {
+    font-size: 20px;
+    font-weight: 600;
+    padding-top: 20px;
+}
+
+.h3, h3 {
+    font-size: 21px;
+    padding-top: 15px;
+}
+
 h5 {
     color: #003319;
     font-weight: 400;
@@ -53,6 +64,7 @@ p{
 .product-info h4 {
     font-size: 35px;
     font-weight: 600;
+    padding-bottom: 20px;
     border-bottom: #ce294d4d solid 1px;
     /* display: block; */
 }
@@ -250,7 +262,7 @@ main{
 
 /*START MAIN - PRODUCT PAGE*/
 .btn-lg {
-    padding: .5rem 1rem;
+    padding: 1.5rem 1rem;
     font-size: 1.25rem;
     line-height: 1.5;
     border-radius: 0px;
