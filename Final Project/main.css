@@ -36,6 +36,12 @@ p{
 .no-display-576{
     display: none;
 }
+
+.card img:hover{
+transform: scale(1.03);
+background: rgb(255,255,255);
+background-image: linear-gradient(157deg, rgba(255,255,255,0.6362920168067228) 0%, rgba(255,255,255,0.8911939775910365) 55%, rgba(255,255,255,1) 100%);
+} 
 /*END MEDIA RELATED - INDEX*/
 
 /*COLORSSSSSSS
