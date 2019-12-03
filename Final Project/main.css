@@ -24,10 +24,41 @@ p{
     margin-top: 10px;
 }
 
-.footer_about p{
+.footer_about, .footer-return-policy p{
     width: 80%;
     margin: 30px auto;
 
+}
+
+.footer-return-policy p{
+    font-size: 16px;
+    line-height: 32px;
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: #ce294d;
+}
+
+.product-info h5 {
+    font-weight: 500;
+    color: #003319;
+    font-weight: 400;
+    font-size: 40px;
+    border-bottom: 0px;
+    padding-bottom: 0px;
+    margin: 40px 30px 25px;
+    /* margin-bottom: 20px; */
+}
+
+.product-info h4 {
+    font-size: 35px;
+    font-weight: 600;
+    border-bottom: #ce294d4d solid 1px;
+    /* display: block; */
+}
+
+#prod-description{
+    border-top: #ce294d4d solid 1px;
 }
 /*END TEXT RELATED - INDEX*/
 
@@ -42,6 +73,13 @@ transform: scale(1.03);
 background: rgb(255,255,255);
 background-image: linear-gradient(157deg, rgba(255,255,255,0.6362920168067228) 0%, rgba(255,255,255,0.8911939775910365) 55%, rgba(255,255,255,1) 100%);
 } 
+
+.col-4 img{
+        vertical-align: middle;
+        border-style: none;
+        max-width: -webkit-fill-available;
+        margin: 15px auto;
+}
 /*END MEDIA RELATED - INDEX*/
 
 /*COLORSSSSSSS
@@ -185,9 +223,48 @@ main{
     border-radius: 0px;
 }
 
-
-
 /* END MAIN - INDEX */
+
+
+/*START MAIN - PRODUCTS*/
+.product-deck{
+    margin: auto;
+}
+
+.row{
+    margin: auto;
+    margin-bottom: 40px; 
+}
+
+.jumbotron {
+    padding: 4rem 2rem;
+    margin-top: 130px;
+    border-radius: 0px;
+}
+
+.footer-return-policy{
+    margin: 85px auto 50px;
+}
+
+/*END MAIN - PRODUCTS*/
+
+/*START MAIN - PRODUCT PAGE*/
+.btn-lg {
+    padding: .5rem 1rem;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    border-radius: 0px;
+    width: 100%;
+    background-color: #003319!important;
+    color: #f4fff7fc!important;
+}
+
+#left{
+    padding-left: 0px;
+}
+/*END MAIN - PRODUCT PAGE**/
+
+
 /*START FOOTER*/
 .footer {
     padding: 60px 0;
@@ -259,7 +336,7 @@ main{
 .no-display-768{
     display: none!important;
 }
-}
+
 
 /* Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) {
@@ -278,7 +355,7 @@ main{
         display: flex!important;
     }
 
-    .footer_about p {
+    .footer_about, .footer-return-policy p {
         width: 60%;
         margin: 35px auto;
     }
@@ -295,11 +372,26 @@ main{
         display: flex!important;
     }
 
-    .footer_about p {
+    .footer_about, .footer-return-policy p {
         width: 58%;
         margin: 35px auto;
     }
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) { ... }
+@media (min-width: 1200px) { 
+    main{
+        max-width: 1200px;
+        margin: auto;
+    }
+
+    nav{
+        max-width: 1200px;
+        margin: auto;
+    }
+
+    .footer, .footer-bottom{
+        max-width: 100%;
+        margin: auto;
+    }
+ }
