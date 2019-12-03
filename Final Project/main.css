@@ -2,6 +2,33 @@
 h1,h2,h3,h4,h5,a,li,p,ul,button,footer{
     font-family: 'Montserrat', sans-serif;
 }
+
+h5 {
+    color: #003319;
+    font-weight: 400;
+    font-size: 30px;
+    border-bottom: #ce294d4d solid 1px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+p{
+    color: #003319;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 35px;
+}
+
+.card p{
+    border-top: 1px solid #ce294d4d;
+    margin-top: 10px;
+}
+
+.footer_about p{
+    width: 80%;
+    margin: 30px auto;
+
+}
 /*END TEXT RELATED - INDEX*/
 
 /*START MEDIA RELATED - INDEX*/
@@ -119,12 +146,41 @@ background: linear-gradient(157deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0.9
   .navbar-toggler.collapsed .bottom-bar {
     transform: rotate(0);
   }
+
+  .form-control{
+    width: 45%;
+}
+
+.form-inline{
+    justify-content: flex-end;
+}
 /*END NAVBAR*/
 
 /* START MAIN - INDEX */
 main{
     margin-top: 130px;
 }
+
+.new_arrivals, .on_sale, .footer_about{
+    margin: 50px auto 20px;
+}
+
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 0px;
+    border-radius: 0px;
+}
+
+
+
 /* END MAIN - INDEX */
 /*START FOOTER*/
 .footer {
@@ -215,6 +271,11 @@ main{
     .no-display-576{
         display: flex!important;
     }
+
+    .footer_about p {
+        width: 60%;
+        margin: 35px auto;
+    }
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -226,6 +287,11 @@ main{
 
     .no-display-768{
         display: flex!important;
+    }
+
+    .footer_about p {
+        width: 58%;
+        margin: 35px auto;
     }
 }
 
