@@ -1,3 +1,13 @@
+/* OOPSIES*/
+@media (max-width: 575px) { 
+    .row{
+        padding-left: 0px;
+        padding-right: 0px;
+        width: 100%;
+    }
+}
+
+
 /*START TEXT RELATED - INDEX*/
 h1,h2,h3,h4,h5,a,li,p,ul,button,footer{
     font-family: 'Montserrat', sans-serif;
@@ -217,7 +227,7 @@ main{
     margin-top: 130px;
 }
 
-.new_arrivals, .on_sale, .footer_about{
+.new_arrivals, .on_sale, .footer_about, .you-may-also-like{
     margin: 50px auto 20px;
 }
 
@@ -339,6 +349,10 @@ main{
 	text-align: center;
 	color: #f4fff7fc;
     background: #003319;
+}
+
+footer .container-fluid, footer .col-md-12{
+    padding: 0px;
 }
 /*END FOOTER*/
 .no-display-576{
