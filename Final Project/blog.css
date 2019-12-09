@@ -28,3 +28,29 @@ body{
 #jumbo-override{
     padding: 1rem 2rem 2rem;
 }
+
+.display-4{
+    font-size: 30px;
+}
+
+.jumbo-img{
+    width: 100%;
+    margin: auto;
+}
+
+
+
+.col-4{
+    display: block;
+    text-align: right;
+    padding-right: 0px;
+}
+
+#blog-btn{
+    background-color: #003319;
+    border-radius: 0px;
+    color: #f4fff7fc;
+    border: none;
+    width: 92%;
+    padding: 10px;
+}
