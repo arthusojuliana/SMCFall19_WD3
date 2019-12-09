@@ -45,7 +45,7 @@ p{
     margin-top: 10px;
 }
 
-.footer_about, .footer-return-policy p{
+.footer_about p, .footer-return-policy p{
     width: 80%;
     margin: 30px auto;
 
@@ -236,7 +236,7 @@ main{
     margin-top: 130px!important;
 }
 
-.new_arrivals, .on_sale, .footer_about, .you-may-also-like{
+.new_arrivals, .on_sale, .footer_about, .you-may-also-like, .header-about{
     margin: 50px auto 20px;
 }
 
@@ -294,6 +294,59 @@ main{
     padding-left: 0px;
 }
 /*END MAIN - PRODUCT PAGE**/
+
+/* START MAIN - CONTACT */
+
+.header-about{
+    padding-top: 50px;
+}
+
+/* Style the buttons that are used to open and close the accordion panel */
+button{
+    background-color: white;
+}
+
+.accordion {
+   
+    color: #003319;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    background-color: none;
+  }
+  
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.accordion h3{
+    float: left;
+}
+
+.accordion:hover{
+    color: #ce294d;
+  }
+  
+  /* Style the accordion panel. Note: hidden by default */
+  .panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+  }
+
+  .accordion:after {
+    content: '\02795';
+    font-size: 13px;
+    color: #ce294d;
+    float: right;
+    margin-left: 5px;
+    padding-top: 15px;
+}
+  
+/* END MAIN - CONTACT */
 
 
 /*START FOOTER*/
@@ -362,6 +415,7 @@ main{
 
 footer .container-fluid, footer .col-md-12{
     padding: 0px;
+    width: 100%!important;
 }
 /*END FOOTER*/
 .no-display-576{
@@ -390,7 +444,7 @@ footer .container-fluid, footer .col-md-12{
         display: flex!important;
     }
 
-    .footer_about, .footer-return-policy p {
+    .footer_about p, .footer-return-policy p {
         width: 60%;
         margin: 35px auto;
     }
@@ -407,7 +461,7 @@ footer .container-fluid, footer .col-md-12{
         display: flex!important;
     }
 
-    .footer_about, .footer-return-policy p {
+    .footer_about p, .footer-return-policy p {
         width: 58%;
         margin: 35px auto;
     }

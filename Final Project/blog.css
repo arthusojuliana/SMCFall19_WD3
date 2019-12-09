@@ -1,0 +1,30 @@
+.Blogintro {
+    max-width: 70%;
+    height: auto;
+    margin: auto;
+    display: block;
+}
+
+.lead-fluid {
+    /* font-size: 1.25rem; */
+    font-weight: 300;
+    text-align: center;
+    display: block;
+    margin: auto;
+    border-top: #ce294d4d solid 1px;
+    width: 50%;
+    margin-top: -20px;
+    padding-top: 20px;
+}
+
+body{
+    background-color: #f4fcf8;
+}
+
+.jumbotron{
+    background-color: #f4fcf8;
+}
+
+#jumbo-override{
+    padding: 1rem 2rem 2rem;
+}
