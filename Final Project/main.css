@@ -1,3 +1,152 @@
+/*IMAGES*/
+.img1{
+background-image: url(https://gearpatrol.com/wp-content/uploads/2019/01/10-Best-Indoor-Plants-Gear-Patrol-umbrella.jpg);
+height: 250px;
+background-size: cover;
+background-position: center;
+}
+
+.img2 {
+    background-image: url(https://cdn.shopify.com/s/files/1/0150/6262/products/the-sill_zz-plant_hover_terracotta_1024x1024.jpg);
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+}
+
+.img3 {
+    background-image: url(https://images-na.ssl-images-amazon.com/images/I/71UDJBX-JkL._SY550_.jpg);
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+}
+
+.img4 {
+    background-image: url(https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/an-alocasia-plant-in-a-green-pot-on-wooden-table-royalty-free-image-1132823763-1551727929.jpg);
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+}
+
+.img5{
+    background-image: url(https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/monstera-deliciosa-1560888659.jpg);
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+    }
+    
+    .img6 {
+        background-image: url(https://images.homedepot-static.com/productImages/cd3c9e1b-e172-44ea-a03c-11052df95e7e/svn/house-plants-21917-64_1000.jpg);
+        height: 250px;
+        background-size: cover;
+        background-position: center;
+    }
+    
+    .img7 {
+        background-image: url(https://images.homedepot-static.com/productImages/b8079873-ecf3-49f8-87bf-476b5f24c4d7/svn/just-add-ice-house-plants-262768-64_1000.jpg);
+        height: 250px;
+        background-size: cover;
+        background-position: center;
+    }
+    
+    .img8 {
+        background-image: url(https://images.homedepot-static.com/productImages/c67b3b29-a62d-4cfd-bad2-ef1ec4e65f62/svn/house-plants-26806-64_1000.jpg);
+        height: 250px;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .img9{
+        background-image: url(https://images.homedepot-static.com/productImages/67107669-aedd-415d-9929-c6b08df42cc7/svn/costa-farms-house-plants-10maj-64_1000.jpg);
+        height: 250px;
+        background-size: cover;
+        background-position: center;
+        }
+        
+        .img10 {
+            background-image: url(https://images.homedepot-static.com/productImages/0e665064-e069-4225-8b06-7cc01a0bb92b/svn/house-plants-26479-64_1000.jpg);
+            height: 250px;
+            background-size: cover;
+            background-position: center;
+        }
+        
+        .img11 {
+            background-image: url(https://images.homedepot-static.com/productImages/dc332467-19dd-49a2-a9e1-c92ac9301040/svn/costa-farms-house-plants-10bosthb-64_1000.jpg);
+            height: 250px;
+            background-size: cover;
+            background-position: center;
+        }
+        
+        .img12 {
+            background-image: url(https://images.homedepot-static.com/productImages/3403259e-2caa-4347-8db8-c91ae59f4e62/svn/house-plants-25649-64_1000.jpg);
+            height: 250px;
+            background-size: cover;
+            background-position: center;
+        }
+
+
+#after_submit, #email_validation, #name_validation {
+    display:none;
+}
+
+#after_submit{
+    background-color: #c0ffc0;
+    line-height: 31px;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    -webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+
+label, #after_submit{
+	color: #6c6c6c;
+}
+
+input{
+    line-height: 31px;
+}
+
+input, textarea{
+    width: 288px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	background-color: rgba(255,255,255,.6);
+	border: solid 1px #b6c7cb;
+}
+
+#contact_form {
+    /* height: 384px; */
+    /* background-color: #e1e9eb; */
+  
+    padding: 20px;
+    width: 80%;
+
+    border-radius: 0px;
+    border: #ce294d4d solid 1px;
+    margin: auto;
+}
+
+
+
+label.required:after {
+  content:'*';
+  color:red;
+}
+
+.error {
+  background-color:#FFDFDF;
+  color:red;
+}
+.error_message{
+  font-style: italic;
+  font-size: 10px;
+}
+.row {
+  margin:5px;
+}
+
+
 .cd-cart__trigger,
 .cd-cart__content {
   position: fixed;
@@ -7,7 +156,7 @@
 }
 
 .cd-cart--empty .cd-cart__trigger,
-.cd-cart--empty .cd-cart__content { // hide cart
+.cd-cart--empty .cd-cart__content {
   transform: translateY(150px);
 }
 
@@ -32,7 +181,7 @@
     transition-delay: 0s;
   }
 
-  .cd-cart__product--deleted { // this class is added to an item when it is removed form the cart
+  .cd-cart__product--deleted {
     position: absolute;
     left: 0;
     width: 100%; 
@@ -152,7 +301,7 @@ p{
     display: none;
 }
 
-.card img:hover{
+.mmg:hover{
 transform: scale(1.03);
 background: rgb(255,255,255);
 background-image: linear-gradient(157deg, rgba(255,255,255,0.6362920168067228) 0%, rgba(255,255,255,0.8911939775910365) 55%, rgba(255,255,255,1) 100%);
