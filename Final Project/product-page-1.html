@@ -7,17 +7,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
+    
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="main.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,400i,500,600,700,800&display=swap"
         rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="icon" href="Planticia-03.png" type="image/png" sizes="16x16">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
     <title>Products Page - Planticia</title>
 </head>
 
 <body>
+
     <header class="fixed-top">
         <div class="alert alert-primary" role="alert">
             FREE SHIPPING WORLDWIDE
@@ -54,8 +58,9 @@
                     <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
                 </form>
 
-                <a href="#" class="btn btn-info">
-                    <span class="glyphicon">&#xe116;</span>
+                <a href="checkout.html" class="btn btn-info" id="fa-shopping-cart">
+                        <i class="fa fa-shopping-cart" style="font-size:21px;color:#003319">
+                        <span class= " badge badge-warning" id="counter"> </span></i>
                 </a>
             </div>
         </nav>
@@ -196,7 +201,7 @@
                                 </div>
 
                                 <div class="col-12">
-                                    <button class="btn btn-lg">Add to Bag</button>
+                                    <a class="btn btn-lg" id="update">Add to Bag</a>
                                 </div>
                             </div>
                         </div>
@@ -205,6 +210,8 @@
             </div>
         </div>
         <!--END PRODUCT INFO-->
+
+        
 
 
         <!--START FOOTER RETURN POLICY-->
@@ -363,6 +370,14 @@
     </footer>
 
     <!-- Optional JavaScript -->
+
+    <script>
+            var count = 0;
+            
+            $("#update").click(function() {
+                count += 1; // increase by 120
+                $("#counter").html(+count);
+            });</script>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">

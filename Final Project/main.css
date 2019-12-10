@@ -1,4 +1,47 @@
+
+
 /*IMAGES*/
+#jumbo{
+    max-width: 100%;
+}
+
+#fa-shopping-cart{
+    margin-left: 5px;
+}
+
+.badge {
+    padding-left: 9px;
+    padding-right: 9px;
+    -webkit-border-radius: 9px;
+    -moz-border-radius: 9px;
+    border-radius: 9px;
+  }
+  
+  .label-warning[href],
+  .badge-warning[href] {
+    background-color: #c0ffc0;
+  }
+  #lblCartCount {
+      font-size: 12px;
+      background: #c0ffc0;
+      color: #ce294d;
+      padding: 0 5px;
+      vertical-align: top;
+      margin-left: -10px; 
+  }
+
+  .badge-warning {
+    color: #ce294d;
+    font-family: 'Montserrat';
+    background-color: #c0ffc0;
+}
+
+#other-posts p{
+    border: 0px;
+    width: 80%;
+    margin: auto;
+}
+
 .img1{
 background-image: url(https://gearpatrol.com/wp-content/uploads/2019/01/10-Best-Indoor-Plants-Gear-Patrol-umbrella.jpg);
 height: 250px;
@@ -107,7 +150,7 @@ input{
 }
 
 input, textarea{
-    width: 288px;
+    
 	-webkit-border-radius: 3px;
 	-moz-border-radius: 3px;
 	border-radius: 3px;

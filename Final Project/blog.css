@@ -59,3 +59,7 @@ body{
     width: 92%;
     padding: 10px;
 }
+
+.bg-primary {
+    background-color: #dffbe1!important;
+}
