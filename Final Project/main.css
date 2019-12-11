@@ -383,10 +383,16 @@ background-image: linear-gradient(157deg, rgba(255,255,255,0.6362920168067228) 0
 }
 
 #twist{
-    border: 1px solid #ce294d4d;
     padding: 25px;
 }
 
+#twist h4{
+    border-bottom: 1px solid #ce294d4d;
+}
+
+#twist .form-control {
+   width: 100%!important;
+}
 
 /*END CHECKOUT PAGE*/
 
